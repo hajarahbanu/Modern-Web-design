@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+
+#nav{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    /* background-color: red; */
+    padding: 30px 40px;
+}
+#nav-part1{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+
+#nav-part2{
+    display: flex;
+    width: 45%;
+    justify-content: space-between;
+}
+
+#nav-part2 h4:hover{
+    color: blueviolet;
+    /* font-size: larger; */
+}
+
+#nav h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#nav h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#nav h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#content{
+    margin-top: 60px;
+    padding: 40px 65px;
+}
+
+#content h3{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#content h1{
+    margin-top: 35px;
+    font-size: 130px;
+    line-height: 110px;
+    font-weight: 500;
+    letter-spacing: -5px;
+    word-spacing: 12px;
+}
+
+#case{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 65px;
+    margin-top: 150px; 
+}
+
+#case h4{
+    font-size: 26px;
+    font-weight: 500;
+}
+
+#right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+#line{
+    height: 2px;
+    width: 100px;
+    background-color: #000;
+}
+
+#projects{
+    display : flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 65px;
+    gap: 80px;
+}
+
+.elem{
+    width: 50%;
+}
+.elem-img{
+    height: 600px;
+    background-color: rgb(159, 196, 216);
+    width: 100%;
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center;
+}
+#img1{
+    background-image: url(https://pagedone.io/asset/uploads/1707480017.png);
+}
+#img2{
+    background-image: url(https://i.pinimg.com/474x/ef/e0/1c/efe01c36e7a7dee7854843e077a78943.jpg);
+    
+}
+
+.bottom{
+    display : flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.bottom i{
+    padding: 15px 30px;
+    font-size: 30px;
+    border: 2px solid black ;
+    border-radius: 50px;
+}
+
+.bottom i:hover{
+    background-color: black;
+    color: white;
+}
+
+.bottom h2{
+    font-size: 40px;
+    font-weight:500;
+    scroll-margin: 10px
+
+}
+
+
